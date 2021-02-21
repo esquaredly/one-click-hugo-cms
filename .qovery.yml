@@ -1,0 +1,11 @@
+---
+application:
+  name: "go-chat"
+  project: "minecraft-server"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-go-chat"
+  routes:
+  - application_name: "go-chat"
+    paths:
+    - "/*"
